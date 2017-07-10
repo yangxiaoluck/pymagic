@@ -131,7 +131,7 @@ print STATICFILES_DIR
 TEMPLATE_DIRS = (
     os.path.join(BASE_DIR,  'templates'),
 )
-
+ALLOWED_HOSTS = ['*']
 DEBUG = True
 LOGGING = {
     'version': 1,
